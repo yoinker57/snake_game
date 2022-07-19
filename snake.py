@@ -48,13 +48,3 @@ class Snake:
     def right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
-
-
-
-
-
-
-
-start_positon = [(0, 0), (-20, 0), (-40, 0)]
-
-segments = []
